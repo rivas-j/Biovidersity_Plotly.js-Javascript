@@ -1,18 +1,51 @@
-# Belly Button Biodiversity Dashboard
+# Belly Button Biodiversity Dashboard with Plotly.js
 
-## Overview
+<div align="center">
+    <img src=images/dashboard-header.png>
+</div>
+
+## <div align="center">Build Interactive Web Dashboard for Exploring Belly Button Biodiversity Data using Plotly.js, Javascript and D3.js</div>
+
+<p align="center">
+<a href="#goals">Goals</a> &nbsp;&bull;&nbsp;
+<a href="#dataset">Dataset</a> &nbsp;&bull;&nbsp;
+<a href="#tools-used">Tools Used</a> &nbsp;&bull;&nbsp;
+<a href="#analysis-and-challenges">Analysis and Challenges</a> &nbsp;&bull;&nbsp;
+<a href="#results">Results</a>
+</p>
+
+# <div align="center">Goals</div>
+
+Utilize JavaScript, Plotly, and D3.js to build the following visualizations:
+
+- horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage
+- bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage
+- gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu
+
+# <div align="center">Dataset</div>
+
+- [Belly Button Data:](samples.json) JSON file containing belly button biodiversity data
+
+# <div align="center">Tools Used</div>
+- **Javascript:** Programming language used for creating visually appealing and dynamic web content
+    - **Plotly.js:** Javascript library used to create engaging and dynamic charts
+    - **D3.js:** Javascript library used for data visualization, reading JSON files and placing API calls    
+- **HTML:** Hypertext Markup Language used to build and design webpages
+- **CSS:** Creative Style Sheets add dynamic visual styling to html webpages
 
 
-Our friend Roza has a partially completed dashboard that she needs to finish. She has a completed panel for demographic information and now needs to visualize the bacterial data for each volunteer. Specifically, her volunteers should be able to identify the top 10 bacterial species in their belly buttons. That way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef, Roza's volunteers will be able to identify whether that species is found in their navel.
-
-Using Javascript, we built a javascript function in our charts.js file that compiled data from samples.json, and through the following plotly CDN generated the descriptive charts below:
+# <div align="center">Analysis and Challenges</div>
+ 
+ Using Javascript, we built a javascript function in our charts.js file that compiled data from samples.json, and through the following plotly CDN generated the descriptive charts below:
 
 ```
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 ```
 
-![Bar Chart](https://github.com/rivas-j/plotly_deploy/blob/82101c55c32e1230fb993c8ee702427755a1f03c/images/barchart.png)
+![Bar Chart](images/barchart.png)
 
-![Bubble Chart](https://github.com/rivas-j/plotly_deploy/blob/82101c55c32e1230fb993c8ee702427755a1f03c/images/bubblechart.png)
+![Bubble Chart](images/bubblechart.png)
 
-![Dashboard](https://github.com/rivas-j/plotly_deploy/blob/82101c55c32e1230fb993c8ee702427755a1f03c/images/dashboard.png)
+![Dashboard](images/dashboard.png)
+
+[Back to top](#belly-button-biodiversity-dashboard-with-plotly.js)
